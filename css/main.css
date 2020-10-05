@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+body{
+	border: 1px solid #E1EEED;
+	background-color: #E1EEED;
+	margin:20px 15px ;
+}
+header {
+	border:1px solid white;
+	background-image: url("../image/header2.jpg") ;
+	background-size:100% 100%;
+	background-position: top;
+	padding: 60px;
+	background-repeat: no-repeat;
+	font-size: 50px;
+	text-align: center;
+	color: #A31200;
+	font-family: 'Courgette', cursive;
+	font-weight: bold;
+}
+
+#nav {
+	border:1px solid white;
+	padding: 15px;
+	margin: 0px;
+	width: auto;
+  background-color: #75CB31;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+	font-family: monospace;
+}
+
+h2+span {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p+span {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #A19AF3;
+}
+
+p+span {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+table ~ span {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+
+ul + span {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	margin-left: 44%;
+}
+
+a {
+	font-size: 1.5em;
+  color: blue;
+	text-decoration: none;
+}
+a.active {
+	color: white;
+}
+
+a.up {
+	color: #0532EE;
+}
+.article_1 {
+	padding: 15px;
+	margin:auto;
+}
+
+.article_4 {
+  background-color: #8CFD3D;
+  padding: 15px;
+  margin: auto;
+}
+
+.figure {
+	display: block;
+	margin-left: 45%;
+	margin-right: 55%;
+	width: 50%;
+	font-weight: bold;
+	color: red;
+	}
+
+	img.gallery {
+		border: 1px solid white;
+		margin-left: 30%;
+		padding: 1px;
+		width: 600px;
+		height: 400px;
+	}
+
+	table,th,td {
+	  border: 2px solid blue;
+	  text-align: left;
+	  font-size: 20px;
+	  border-collapse: collapse;
+		padding: 5px;
+		margin: 5px;
+	}
+
+	caption {
+		font-size: 25px;
+		padding: 5px;
+
+	}
+	footer {
+		text-align: center;
+		font-size: 17px;
+	}
+	p {
+	  font-family: 'Kavivanar', cursive;
+	  color: purple;
+	  font-size: 1.3em;
+	  font-variant: normal;
+	  font-style: normal;
+	  font-weight:100;
+	  line-height: 1.5;
+	  text-align:justify;
+	  text-indent: 50px;
+	  text-transform:lowercase;
+	 }
+
+	 h2 {
+		 font-size: 2.2em;
+	     font-family: "Lato";
+	     color: green;
+	     font-style: italic;
+	     text-shadow: 0 0 5px yellow;
+	 }
+
+
+	 @font-face {
+	 font-family: handwriting-draft_free-version;
+	 src: url(../font/handwriting-draft_free-version.ttf);
+	 }
+
+
+	 p.foot {
+		 color: black;
+		 font-size: 1.2em;
+		 text-align: center;
+		 font-weight: bold;
+
+	 }
+
+li {
+	color: #72539D  ;
+	font-family: 'Kalam', cursive;
+	font-size: 1.2em;
+}
